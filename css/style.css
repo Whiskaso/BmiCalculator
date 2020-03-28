@@ -1,0 +1,48 @@
+/* =========================
+BASE ELEMENT STYLE 
+============================*/
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    line-height: 1.6;
+    color: #3a3a3a;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* ==============================
+BASE LAYOUT STYLES
+=============================== */
+
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+
+@media (min-width: 769px)
+
+
+
+
+
+
+/* -------FLOAT CLEARFIX ----------*/
+
+.clearfix::after {
+    content: ' ';
+    display: table;
+    clear: both;    
+}
