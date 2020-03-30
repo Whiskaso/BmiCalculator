@@ -20,6 +20,11 @@ function calculatingBMI(){
         weightCategory = 'obesity';
     }
 
+    //VALIDATION FOR CHECKING NUMBERS TO INPUTS
+
+    if (isNaN(height) || isNaN(weight)) {
+        throw alert('Please provide the numbers.')
+    }
 
     //INSERT DATA TO HTML DOCUMENT
     document.querySelector('h2').innerHTML = `${bmi.toFixed(1)}`
