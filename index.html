@@ -11,23 +11,37 @@
 <body>
     
     <div class="container">
+        
+        <div class="main-header">
         <h1>BMI Calculator</h1>
         <p>Body mass index (BMI) is a measure of body fat based on height and weight that applies to adult men and women.</p>
+        </div>
 
-        <form>
-            <label for="heightInput">Your height:</label><br>
-            <input type="number" name="heightInput" id="heightInput" placeholder="[m]" maxlength="3">
-            <br>
-            <label for="weightInput">Your weight:</label><br>
-            <input type="number" name="weightInput" id="weightInput" placeholder="[kg]" max="3">
-            <br>
-            <button type="button" onclick="calculatingBMI();">Calculate your BMI</button>
-        </form>
+        <div class="calculator">
+
+            <h2>Your result</h2>
+            <form>
+                <label for="heightInput">Height:</label><br>
+                <input type="number" name="heightInput" id="heightInput" placeholder="[m]" maxlength="3">
+                <br>
+                <label for="weightInput">Weight:</label><br>
+                <input type="number" name="weightInput" id="weightInput" placeholder="[kg]" maxlenght="3">
+                <br>
+                <button type="button" onclick="calculatingBMI();">Calculate your BMI</button>
+            </form>
+        </div>
+
+    <div class="category">
+        <h3></h3>
+        <p id="printBmiCategories"></p>
     </div>
 
-    <h2></h2>
-    <h3></h3>
-    <p id="printBmiCategories"></p>
+    <div class="main-footer">
+        <span>&#169;2020 Created by Whiskas.</span>
+    </div>
+
+    </div>
+
     <script src="js/script.js"></script>
 </body>
 </html>
