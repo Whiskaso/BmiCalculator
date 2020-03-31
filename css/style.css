@@ -65,13 +65,15 @@ BASE LAYOUT STYLES
 .calculator {
     margin: 0 auto;
     max-width: 300px;
-    border: 5px solid #d4c7ac;
-    border-radius: 14%;
+    border: 5px ridge #d4c7ac;
+    border-radius: 8%;
     padding-bottom: 25px;
+    box-shadow: 3px 3px 3px #000;
 }
 
 .calculator h2 {
     font-size: 1.2em;
+    font-family: 'Orbitron', sans-serif;
     width: 80%;
     margin: auto;
     margin-top: 30px;
